@@ -8,7 +8,11 @@ import java.sql.SQLException;
 
 public class JDBCUtil {
     public static String DRIVERNAME = "com.mysql.jdbc.Driver";
+<<<<<<< HEAD
     public static String URL = "jdbc:mysql://47.107.71.85:3306/Second_group";
+=======
+    public static String URL = "jdbc:mysql://47.107.71.85/Second_group?useUnicode=true&characterEncoding=utf8";
+>>>>>>> 58f20890ab478c1fdc969ae2f24468ac02e1460d
     public static String USER = "root";
     public static String PASSWORD = "123456";
  
